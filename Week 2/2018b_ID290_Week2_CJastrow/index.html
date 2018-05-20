@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="Styles/Main.css">
+	
+	<script src="Scripts/jquery.min.js"></script>
+	
+	<!-- Use this to link to GSAP...
+	<script src="Scripts/TweenMax.min.js"></script>
+	-->
+</head>
+<body>
+
+	<audio id="engineRev" src="Audio/EngineRev.mp3"></audio>
+
+	<div id="contain">
+		<img id="background" src="Images/Background.jpg" data-start="left:0px;" 
+														data-end="left:-200px;">
+		<img id="truck" data-start="left: 2vw;" data-end="left: 50vw;" src="Images/Truck.png">
+		<img id="road" data-start="left: 0px;" data-end="left: -4000px;" src="Images/Road.png">
+
+		<h1 id="header1" data-start="left:30px;" 
+						data-800-start="left:30px;" 
+						data-900-start="left:-1000px;">
+			TAKE THE FORD F-150<br />FOR A TEST DRIVE<br />(scroll down to accelerate)
+		</h1>
+
+		<h1 id="header2" data-start="left: 1200px;opacity:0;" 
+						data-1000-start="left: 1200px;opacity:0;"
+						data-1200-start="left:150px;opacity:1;" 
+						data-1800-start="left:150px;"
+						data-1900-start="left:-1000px">
+			THE 2018 FORD F-150 WON<br /><span style=" font-style: oblique;">"Motor Trend"</span> &nbsp;Truck of the Year<span style="font-size: 12px;position: relative;top: -40px">&reg;</span>
+		</h1>
+
+		<h1 id="header3" data-start="left:1200px;opacity:0;" 
+						data-2000-start="left:1200px;opacity:0;"
+						data-2200-start="left:300px;opacity:1;"
+						data-2800-start="left:300px;"
+						data-2900-start="left:-1000px">
+			MILEAGE<br /> 18/24 MPG <span style="font-size: 22px;">City/Highway</span>
+		</h1>
+
+		<h1 id="header4" data-start="left:1200px;opacity:0;" 
+						data-2900-start="left:1200px;opacity:0;"
+						data-3100-start="left:450px;opacity:1;">
+			DON'T WAIT!<br />Take yours home today!
+		</h1>
+	</div>
+
+	<div id="buyLink" data-start="top:-10000px;"
+					data-2900-start="top:-10000px;"
+					data-3100-start="top:350px;">
+		<a href="https://shop.ford.com/build/f150/#/chooseyourpath/" target="_blank"><img id="logo" src="Images/FordLogo.png"></a><br />
+		Click the logo to<br />check one out today!
+	</div>
+
+	<div id="popUp">
+		<div id="key"></div>
+		<h2 id="needThis">
+			"Here,<br />you'll need this."
+		</h2>
+	</div>
+
+	<script type="text/javascript" src="Scripts/skrollr.js"></script>
+	<script type="text/javascript" src="Scripts/Main.js"></script>
+</body>
+</html>

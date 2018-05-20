@@ -1,0 +1,128 @@
+body {
+	margin: 0px;
+	font-family: impact, arial black;
+	background-color: black;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+#popUp {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: #333;
+}
+
+#key {
+	background-image: url(../Images/Key.png);
+	background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -100px;
+	height: 800px;
+	width: 200px;
+}
+
+#key:hover {
+	background-image: url(../Images/KeyGlow.png) ;
+	cursor: pointer;
+	margin-top: -10px;
+	margin-left: -110px;
+	width: 220px;
+}
+
+#needThis {
+	position: absolute;
+	left: 100px;
+	font-family: impact, arial black;
+	font-size: 60px;
+	color: white;
+}
+
+#contain {
+	margin: 0px auto;
+	width: 95vw;
+	height: 5000px;
+	overflow: hidden;
+}
+
+#background {
+	position: fixed;
+	top: -300px;
+	left: 0px;
+	width: 1600px;
+	height: 900px;
+}
+
+#road {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 180px;
+}
+
+#truck {
+	width: 500px;
+	position: fixed;
+	left: 0px;
+	bottom: 80px;
+}
+
+h1 {
+	font-family: impact, arial black;
+	font-size: 50px;
+	letter-spacing: 2px;
+	color: white;
+	position: fixed;
+	top: 230px;
+	left: 30px;
+	text-shadow: 2px 2px black;
+}
+
+#header1 {
+	top: 170px;
+}
+
+#buyLink {
+	position: fixed;
+	top: 360px;
+	left: 150px;
+	text-align: center;
+	color: white;
+	font-family: impact, arial black;
+	text-shadow: 2px 2px black;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+#logo {
+	width: 200px;
+	border-radius: 80px;
+}
+
+#logo:hover {
+	position: relative;
+	top: -10px;
+	left:-10px;
+	width: 220px;
+	cursor: pointer;
+	margin-right: -20px;
+	margin-bottom: -10px;
+}
